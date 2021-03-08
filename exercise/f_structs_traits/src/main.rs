@@ -16,8 +16,6 @@ trait Bite {
 // need a hint, look at how it was done for Carrot at the bottom of this file (you should probably
 // use a different field, though).
 //
-// #[derive(Debug)] // include this line right before your struct definition
-// struct Grapes...
 
 struct Grapes {
     total_left: i32,
@@ -25,8 +23,6 @@ struct Grapes {
 
 // 3. Implement Bite for Grapes.  When you bite a Grapes, subtract 1 from how many grapes are left.
 // If you need a hint, look at how it was done for Carrot at the bottom of this file.
-//
-// impl Bite for...
 
 impl Bite for Grapes {
     // reduce by 1
